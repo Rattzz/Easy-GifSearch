@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Gif Search</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+        rel="stylesheet"
+        />
+        <link rel="icon" href="./gif.ico" type="image/x-icon"/>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="box">
+            <div class="search-container">
+                <input type="text" id="search-box" value="" placeholder="Type what you want to find your GIF"/>
+                <button id="submit-btn">Search</button>
+            </div>
+            <div class="loader">
+                <div class="loader-inner">
+                    <div class="loader-line-wrap">
+                        <div class="loader-line"></div>
+                    </div>
+                    <div class="loader-line-wrap">
+                        <div class="loader-line"></div>
+                    </div>
+                    <div class="loader-line-wrap">
+                        <div class="loader-line"></div>
+                    </div>
+                    <div class="loader-line-wrap">
+                        <div class="loader-line"></div>
+                    </div>
+                    <div class="loader-line-wrap">
+                        <div class="loader-line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper"></div>
+        </div>
+        <script src="api-key.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
